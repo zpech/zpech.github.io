@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	font-size: 175%;
+	font-family: arial;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color: #474222
+}
+
+.box{
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: #F2EED3;
+	font-family: arial;
+	font-size: 100%;
+	padding: 40px 20px 20px 20px;
+	text-align: justify;
+	position: relative;
+	}
+
+
+.corner{
+	position: absolute;
+	width: 100px;
+	top: 0;
+	right: 0;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	box-sizing: border-box;
+	padding: 5px;
+	font-size: 125%;
+	text-align: center;
+	color: white;
+	}
+
+#corner1{
+	background-color: #D4A190;
+}
+
+#corner2{
+	background-color: #90C3D4;
+	
+}
+
+#corner3{
+	background-color: #7F8F64;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+ }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 31.11%;
+	margin-left: 1.11%;
+	margin-right: 1.11%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 4%;
+  }
+}
+
+@media (max-width: 767px) {
+	.box{
+		width: 96%;
+		margin: 2%;
+	}
+
+}
